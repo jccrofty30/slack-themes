@@ -7,7 +7,7 @@
 // Make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch our CSS in parallel ahead of time
-    const cssVarPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/dark-1-defauls.css';
+    const cssVarPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/dark-1-defaults.css';
     const cssPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/dark-1.css';
     
     const varPromise = fetch(cssVarPath).then(response => response.text());
