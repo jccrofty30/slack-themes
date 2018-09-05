@@ -16,7 +16,7 @@
 }
 
 .c-file_container {
-    border-size: 0.25em !important;
+    border-width: 0.25em !important;
 }
 
 .c-file__slide--meta {
