@@ -1,16 +1,3 @@
-/* Modify these to change your theme colors: */
-/*
-:root {
-   --main-text: #e4e4e4;
-   --main-background: #383c4a;
-   --main-border: #292c36;
-   --main-btn-background: #474b5d;
-   --main-btn-border: #1b1b1b;
-   --background-elevated: #3f4353;
-   --lighter-text-color-1: #e7e7e7;
-}
-*/
-
 .c-member_slug--link {
     background-color: #2c394a;
 }
@@ -43,20 +30,36 @@
     background-color: var(--main-btn-background);
 }
 
+.c-message_list__day_divider__label {
+    color: var(--lighter-text-color-1);
+}
+
+.c-message_list__day_divider__label__pill {
+    background: var(--background-elevated);
+}
+
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
     background-color: var(--background-elevated);
+}
+
+.channel_header {
+    background-color: var(--main-background);
+}
+
+.channel_header_info_item {
+    background-color: var(--main-background);
 }
 
 code,
 .c-mrkdwn__code,
 .c-mrkdwn__pre {
-     background-color: #24272a;
-     color: #e2e2e2;
+    background-color: #24272a;
+    color: #e2e2e2;
 }
 
 .c-virtual_list__item {
-   background-color: var(--main-background);
-   border-top: 1px solid var(--background-elevated);
+    background-color: var(--main-background);
+    border-top: 1px solid var(--background-elevated);
 }
 
 .c-menu,
@@ -65,8 +68,9 @@ code,
     border: 1px solid var(--main-border);
 }
 
-.channel_header_info_item {
-    background-color: var(--main-background);
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+    background: var(--main-background);
 }
 
 .ql-editor,
@@ -74,15 +78,22 @@ code,
     color: var(--main-text);
 }
 
-.btn_unstyle ts_icon_mentions,
+.btn_unstyle .ts_icon_mentions,
 #main_emo_menu,
-#primary_file_button  {
-    background-color: rgba(0,0,0,0);
+#primary_file_button {
+    background-color: rgba(0, 0, 0, 0);
     color: var(--main-text);
 }
 
-.channel_header {
-    background-color: var(--main-background);
+#team_menu:hover,
+.p-channel_sidebar__channel:hover {
+    background: var(--background-elevated) !important;
+}
+
+#team_menu,
+.p-channel_sidebar__static_list {
+    background: var(--main-background);
+    color: var(--main-text) !important;
 }
 
 #channel_title {
@@ -106,10 +117,3 @@ code,
 button {
     color: var(--main-text) !important;
 }
-
-/*
-#edit_topic_inner:before,
-#channel_topic_text {
-    background: var(--main-background);
-}
-*/
