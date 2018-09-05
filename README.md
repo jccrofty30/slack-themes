@@ -1,1 +1,1 @@
-"# Slack Themes" 
+# Slack Themes
