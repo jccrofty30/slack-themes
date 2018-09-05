@@ -25,3 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 ```
+<sub>Tweaked from [AngelSix](http://blog.angelsix.com/angelsix/blog/2017/09/12/slack-dark-theme/)</sub>
