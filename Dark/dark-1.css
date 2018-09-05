@@ -39,7 +39,7 @@
     color: var(--lighter-text-color-1);
 }
 
-.c-message--light {
+.c-message--editing {
     background: var(--background-elevated);
 }
 
