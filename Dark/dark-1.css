@@ -150,3 +150,7 @@ code,
 button {
     color: var(--main-text) !important;
 }
+
+#edit_topic_inner:not(.unable_to_post):before {
+    background: var(--main-background);
+}
