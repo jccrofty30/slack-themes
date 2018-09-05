@@ -1,0 +1,115 @@
+/* Modify these to change your theme colors: */
+/*
+:root {
+   --main-text: #e4e4e4;
+   --main-background: #383c4a;
+   --main-border: #292c36;
+   --main-btn-background: #474b5d;
+   --main-btn-border: #1b1b1b;
+   --background-elevated: #3f4353;
+   --lighter-text-color-1: #e7e7e7;
+}
+*/
+
+.c-member_slug--link {
+    background-color: #2c394a;
+}
+
+.c-menu_item__label {
+    color: var(--main-text);
+}
+
+.c-menu_item__description {
+    color: var(--lighter-text-color-1);
+}
+
+.c-menu_separator__separator {
+    color: var(--lighter-text-color-1);
+}
+
+.c-message__body {
+    color: var(--main-text);
+}
+
+.c-message__sender_link {
+    color: var(--main-text) !important;
+}
+
+.c-message_actions__button {
+    color: var(--main-text);
+}
+
+.c-message_actions__container {
+    background-color: var(--main-btn-background);
+}
+
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: var(--background-elevated);
+}
+
+code,
+.c-mrkdwn__code,
+.c-mrkdwn__pre {
+     background-color: #24272a;
+     color: #e2e2e2;
+}
+
+.c-virtual_list__item {
+   background-color: var(--main-background);
+   border-top: 1px solid var(--background-elevated);
+}
+
+.c-menu,
+.p-message_actions_menu {
+    background-color: var(--main-background);
+    border: 1px solid var(--main-border);
+}
+
+.channel_header_info_item {
+    background-color: var(--main-background);
+}
+
+.ql-editor,
+.ql-placeholder {
+    color: var(--main-text);
+}
+
+.btn_unstyle ts_icon_mentions,
+#main_emo_menu,
+#primary_file_button  {
+    background-color: rgba(0,0,0,0);
+    color: var(--main-text);
+}
+
+.channel_header {
+    background-color: var(--main-background);
+}
+
+#channel_title {
+    color: var(--main-text);
+}
+
+#messages_container:after {
+    background-color: var(--main-background);
+}
+
+#footer_msgs {
+    background-color: var(--main-background);
+}
+
+#header_search_form,
+.ql-editor,
+#msg_input {
+    background-color: var(--main-btn-background);
+}
+
+button {
+    color: var(--main-text) !important;
+}
+
+/*
+#edit_topic_inner:before,
+#channel_topic_text {
+    background: var(--main-background);
+}
+*/
