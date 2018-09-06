@@ -23,8 +23,14 @@
     background: var(--background-elevated);
 }
 
-.c-member_slug--link {
+.c-member_slug--link,
+.internal_member_link,
+ts-message .mention {
     background-color: #2c394a;
+}
+
+ts-message .mention:hover {
+    background-color: #6b7480;
 }
 
 .c-menu_item__label {
@@ -221,4 +227,49 @@ button {
 
 #edit_topic_inner:not(.unable_to_post):before {
     background: var(--main-background);
+}
+
+.day_divider_label {
+    background: var(--main-btn-background) !important;
+    color: var(--main-text);
+}
+
+#canvases_toggle.active,
+#canvases_toggle.active:hover,
+#details_toggle.active:hover,
+#details_toggle.active,
+#recent_mentions_toggle.active,
+#recent_mentions_toggle.active:hover,
+#sli_recap_toggle.active,
+#stars_toggle.active,
+#stars_toggle.active:hover {
+    background: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+}
+
+.tab_panels.tab_container,
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before,
+#flex_contents .heading,
+#flex_contents .heading_text,
+#mentions_options {
+    background: var(--main-background) !important;
+    color: var(--main-text) !important;
+}
+
+.mention_day_container_div .day_divider:before {
+    background: var(--main-background);
+}
+
+.message_body {
+    color: var(--main-text);
+}
+
+.message_sender,
+.light_theme ts-message .message_content .message_sender {
+    color: var(--main-text) !important;
+}
+
+#member_mentions_more_btn {
+    background: var(--main-btn-background);
+    color: var(--main-text) !important;
 }
