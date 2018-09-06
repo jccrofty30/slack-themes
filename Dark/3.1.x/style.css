@@ -125,7 +125,6 @@ code,
 
 .p-emoji_picker__group_tab--active {
     background: var(--main-background);
-    border: 1px solid var(--main-btn-border);
 }
 
 .p-emoji_picker__footer,
