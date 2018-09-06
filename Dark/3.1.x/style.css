@@ -142,6 +142,7 @@ code,
 .p-emoji_picker__preview_text--shortened {
     background: var(--main-btn-background);
     color: var(--main-text);
+    height: 40px;
 }
 
 .p-emoji_picker__skintone_label {
