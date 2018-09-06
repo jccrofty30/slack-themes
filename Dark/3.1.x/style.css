@@ -86,6 +86,10 @@ code,
     color: #e2e2e2;
 }
 
+.c-unified_member__name {
+    color: var(--main-text)
+}
+
 .c-virtual_list__item {
     background-color: var(--main-background);
     border-top: 1px solid var(--background-elevated);
@@ -101,9 +105,54 @@ code,
     background: var(--background-elevated) !important;
 }
 
-.p-degraded_list__loading {
+.p-emoji_picker {
+    background: var(--main-btn-background) !important;
+    border: 1px solid var(--main-btn-border);
+}
+
+.p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container {
+    border: 1px solid var(--main-btn-background);
+}
+
+.p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container,
+.p-emoji_picker__content:hover .p-emoji_picker__skintone_label {
+    background: var(--main-background) !important;
+}
+
+.p-emoji_picker__group_tab:hover {
     background: var(--main-background);
+}
+
+.p-emoji_picker__group_tab--active {
+    background: var(--main-background);
+    border: 1px solid var(--main-btn-border);
+}
+
+.p-emoji_picker__footer,
+.p-emoji_picker__heading,
+.p-emoji_picker__input_container,
+.p-emoji_picker__list_container,
+.p-emoji_picker__skintone_options,
+.p-emoji_picker__tip--can_add_emoji {
+    background: var(--main-btn-background);
     color: var(--main-text);
+}
+
+.p-emoji_picker__preview_text,
+.p-emoji_picker__preview_text--shortened {
+    background: var(--main-btn-background);
+    color: var(--main-text);
+    height: 35px;
+    margin-top: 6px;
+}
+
+.p-emoji_picker__skintone_label {
+    background: var(--main-btn-background) !important;
+    color: var(--main-text) !important;
+}
+
+.p-emoji_picker__skintone_label:hover {
+    border: var(--main-btn-border);
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
@@ -114,6 +163,16 @@ code,
 .ql-editor,
 .ql-placeholder {
     color: var(--main-text);
+}
+
+.tab_complete_ui {
+    background: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+}
+
+.tab_complete_ui_header {
+    background: var(--main-btn-background) !important;
+    color: var(--main-text) !important;
 }
 
 .btn_unstyle .ts_icon_mentions,
@@ -131,6 +190,10 @@ code,
 #team_menu,
 .p-channel_sidebar__static_list {
     background: var(--main-background);
+    color: var(--main-text) !important;
+}
+
+.presence.away {
     color: var(--main-text) !important;
 }
 
