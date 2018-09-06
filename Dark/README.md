@@ -1,7 +1,7 @@
 # Slack Dark Theme
 
 ## Implement
-* Open `ssb-interop.js` (`%appdata%\..\Local\slack\app-3.3.1\resources\app.asar.unpacked\src\static`)
+* Open `ssb-interop.js` (`%appdata%\..\Local\slack\app-<version>\resources\app.asar.unpacked\src\static`)
 * At the bottom: 
 ```javascript
 // Make sure the wrapper app is loaded
