@@ -105,6 +105,11 @@ code,
     background: var(--background-elevated) !important;
 }
 
+.p-degraded_list__loading {
+    background: var(--main-background);
+    color: var(--main-text);
+}
+
 .p-emoji_picker {
     background: var(--main-btn-background) !important;
     border: 1px solid var(--main-btn-border);
