@@ -39,11 +39,11 @@ ts-message .mention:hover {
 }
 
 .c-menu_item__description {
-    color: var(--lighter-text-color-1);
+    color: var(--alt-text);
 }
 
 .c-menu_separator__separator {
-    color: var(--lighter-text-color-1);
+    color: var(--alt-text);
 }
 
 .c-message--editing {
@@ -67,7 +67,7 @@ ts-message .mention:hover {
 }
 
 .c-message_list__day_divider__label {
-    color: var(--lighter-text-color-1);
+    color: var(--alt-text);
 }
 
 .c-message_list__day_divider__label__pill {
