@@ -274,3 +274,13 @@ button {
     background: var(--main-btn-background);
     color: var(--main-text) !important;
 }
+
+#menu_items_scroller {
+    background: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+    border-radius: 0.25em;
+}
+
+.menu ul li a:not(.inline_menu_link) {
+    color: var(--main-text);
+}
