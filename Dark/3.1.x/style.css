@@ -284,3 +284,22 @@ button {
 .menu ul li a:not(.inline_menu_link) {
     color: var(--main-text);
 }
+
+#details_tab .channel_page_section {
+    background: var(--main-btn-background);
+}
+
+#details_tab .channel_page_section .section_title {
+    color: var(--main-text);
+}
+
+.p-channel_insights__drawer_title,
+.p-channel_insights .c-unified_member__title,
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+    color: var(--alt-text) !important;
+}
+
+.c-unified_member__display-name,
+.griegh {
+    color: var(--main-text) !important;
+}
