@@ -324,3 +324,22 @@ button {
     color: var(--alt-text);
 }
 
+.tab_container .file_list_item:hover {
+    background-color: var(--main-background);
+}
+
+.tab_container .file_list_item .actions .btn_icon {
+    background-color: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+}
+
+.tab_container .file_list_item .actions .btn_icon,
+#client-ui .file_list_item .title {
+    color: var(--main-text) !important;
+}
+
+.btn_outline {
+    background: var(--main-background);
+    border: 1px solid var(--main-btn-border);
+    color: var(--main-text) !important;
+}
