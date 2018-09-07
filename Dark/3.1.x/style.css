@@ -5,7 +5,7 @@
 
 .c-file,
 .c-file__title {
-    background: var(--background-elevated) !important;
+    background: var(--main-btn-background) !important;
     color: var(--main-text) !important;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .c-file_container {
-    border-width: 0.25em !important;
+    border: 0.25em solid var(--main-btn-border);
 }
 
 .c-file__slide--meta {
