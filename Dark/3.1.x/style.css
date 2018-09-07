@@ -303,3 +303,24 @@ button {
 .griegh {
     color: var(--main-text) !important;
 }
+
+.channel_page_member_row:hover {
+    background: var(--main-background);
+    border-color: var(--main-btn-border);
+}
+
+.p-channel_insights__date_heading::before,
+.p-channel_insights__date_heading span,
+.p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
+    background-color: var(--main-background);
+}
+
+.p-channel_insights__date_heading span {
+    border-radius: 0.5em;
+    color: var(--main-text);
+}
+
+.p-channel_insights__highlights_description {
+    color: var(--alt-text);
+}
+
