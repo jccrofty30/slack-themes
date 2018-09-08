@@ -456,3 +456,6 @@ input[type="text"] {
     content: ")";
 }
 
+.c-button--disabled {
+    background: #8e8f90;
+}
