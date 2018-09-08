@@ -369,7 +369,9 @@ ts-message.highlight {
 
 .c-dialog__content,
 .c-dialog__footer,
-.c-dialog__header {
+.c-dialog__header,
+.modal,
+.modal-footer {
     background: var(--background-elevated);
 }
 
@@ -385,4 +387,12 @@ ts-message.highlight {
 
 .channel_page_members_highlighter { 
     background-color: #90939d !important;
+}
+
+.btn_outline:hover {
+    background: var(--main-btn-background);
+}
+
+.mini {
+    color: var(--alt-text);
 }
