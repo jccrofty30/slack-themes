@@ -378,3 +378,7 @@ ts-message.highlight {
 .c-message_attachment__author--distinct {
     color: var(--main-text);
 }
+
+.c-member_slug--mention, .c-member_slug--mention:hover {
+    background: var(--main-background);
+}
