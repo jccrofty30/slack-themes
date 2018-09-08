@@ -377,7 +377,8 @@ ts-message.highlight {
 
 .c-alert--inline,
 .c-dialog__title,
-.c-message_attachment__author--distinct {
+.c-message_attachment__author--distinct,
+.slack_menu_header_primary.overflow_ellipsis {
     color: var(--main-text);
 }
 
@@ -389,7 +390,8 @@ ts-message.highlight {
     background-color: #90939d !important;
 }
 
-.btn_outline:hover {
+.btn_outline:hover,
+.slack_menu_download {
     background: var(--main-btn-background);
 }
 
