@@ -399,3 +399,8 @@ ts-message.highlight {
 .mini {
     color: var(--alt-text);
 }
+
+.menu .section_header .header_label {
+    background-color: var(--main-btn-background);
+    color: var(--main-text);
+}
