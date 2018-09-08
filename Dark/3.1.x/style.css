@@ -343,3 +343,26 @@ button {
     border: 1px solid var(--main-btn-border);
     color: var(--main-text) !important;
 }
+
+ts-message.selected:not(.delete_mode) {
+    background: var(--main-background);
+}
+
+ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) {
+    background: var(--background-elevated);
+}
+
+ts-message .action_hover_container,
+ts-message .action_hover_container .btn_msg_action {
+    background: var(--main-btn-background);
+    border-color: var(--main-btn-border);
+}
+
+.inline_file_upload {
+    background: var(--main-btn-background);
+    border: 1px solid white;
+}
+
+ts-message.highlight {
+    background: var(--background-elevated);
+}
