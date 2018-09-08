@@ -404,3 +404,20 @@ ts-message.highlight {
     background-color: var(--main-btn-background);
     color: var(--main-text);
 }
+
+.CodeMirror {
+    background: #1d1f21;
+}
+
+.c-snippet__code .CodeMirror {
+    color: #969896;
+}
+
+.c-snippet__code .CodeMirror-code>div:before {
+    background-color: #333537;
+    color: var(--main-text);
+}
+
+.c-file_container--gradient:after {
+    background: linear-gradient(180deg, hsla(0,0%,100%,0), #1d1f21);
+}
