@@ -382,3 +382,7 @@ ts-message.highlight {
 .c-member_slug--mention, .c-member_slug--mention:hover {
     background: var(--main-background);
 }
+
+.channel_page_members_highlighter { 
+    background-color: #90939d !important;
+}
