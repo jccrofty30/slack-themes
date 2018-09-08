@@ -393,6 +393,7 @@ ts-message.highlight {
     background: var(--main-btn-background);
 }
 
+.c-menu_item__header,
 .mini {
     color: var(--alt-text);
 }
