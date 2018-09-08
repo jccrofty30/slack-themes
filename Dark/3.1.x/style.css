@@ -366,3 +366,15 @@ ts-message .action_hover_container .btn_msg_action {
 ts-message.highlight {
     background: var(--background-elevated);
 }
+
+.c-dialog__content,
+.c-dialog__footer,
+.c-dialog__header {
+    background: var(--background-elevated);
+}
+
+.c-alert--inline,
+.c-dialog__title,
+.c-message_attachment__author--distinct {
+    color: var(--main-text);
+}
