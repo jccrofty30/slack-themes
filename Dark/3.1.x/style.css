@@ -421,3 +421,38 @@ ts-message.highlight {
 .c-file_container--gradient:after {
     background: linear-gradient(180deg, hsla(0,0%,100%,0), #1d1f21);
 }
+
+.c-dialog__footer .p-file_upload_dialog__footer_share_inputs {
+    color: var(--main-text);
+}
+
+.c-input_select {
+    background: var(--main-background);
+    color: var(--main-text);
+}
+
+input[type="text"] {
+    background: var(--main-background);
+}
+
+.c-input_select_options_list_container:not(.c-input_select_options_list_container--always-open) {
+    background-color: var(--main-background);
+    border: 1px solid var(--main-btn-border);
+}
+
+.c-input_select_options_list__option {
+    color: var(--main-text);
+}
+
+.c-input_select__secondary_member_name {
+    color: var(--alt-text);
+}
+
+.c-input_select__secondary_member_name:before {
+    content: "(";
+}
+
+.c-input_select__secondary_member_name:after {
+    content: ")";
+}
+
