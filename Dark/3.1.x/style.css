@@ -519,3 +519,15 @@ ts-message:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_rep
     opacity: 1;
     position: relative;
 }
+
+ts-jumper .p-jumper__help,
+ts-jumper ol li .channel_name,
+ts-jumper ol li {
+    background: var(--main-background);
+    color: var(--alt-text);
+}
+
+ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
+    background: #2d9ee0;
+}
+
