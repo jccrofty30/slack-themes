@@ -531,3 +531,6 @@ ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
     background: #2d9ee0;
 }
 
+.c-message_attachment {
+    color: var(--alt-text);
+}
