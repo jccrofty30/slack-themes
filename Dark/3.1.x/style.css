@@ -474,3 +474,48 @@ body,
 .channel_title .channel_name {
     color: var(--main-text);
 }
+
+#unread_msgs_div .day_divider,
+ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+.unread_group_header {
+    background: var(--main-background);
+    color: var(--alt-text);
+}
+
+.unread_group_header .unread_group_mark {
+    background: var(--main-btn-background);
+}
+
+.unread_group_header .unread_group_collapse_toggle:hover ts-icon,
+.unread_group_header_name a {
+    color: var(--main-text);
+}
+
+.bot_message .message_sender a {
+    color: var(--main-text);
+}
+
+#unread_msgs_div .day_divider {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#unread_msgs_div > div > div.bottom_mark_all_read.large_top_padding.large_bottom_padding.align_center,
+ts-message:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) {
+    background-color: var(--main-background);
+}
+
+.unread_group_footer {
+    background: var(--main-background);
+    opacity: 1;
+}
+
+.unread_group_footer .unread_group_new .unread_group_new_text {
+    color: var(--alt-text);
+}
+
+#unread_msgs_scroller_div:after {
+    background: var(--main-background);
+    opacity: 1;
+    position: relative;
+}
