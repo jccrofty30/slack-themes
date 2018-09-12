@@ -557,3 +557,25 @@ ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
     background: var(--main-btn-background);
     border: 1px solid var(--main-btn-border);
 }
+
+.p-message_pane__top_banners *::after {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    height: 33px;
+    background: var(--main-background);
+    background-color: var(--main-background);
+    width: 100%;
+    margin-left: -15px;
+    z-index: -1;
+}
+
+.p-message_pane__unread_banner.p-message_pane__banner .c-button-unstyled:first-child {
+    background: #29b2ee !important;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em; 
+}
+
+.p-message_pane__unread_banner.p-message_pane__banner .c-button-unstyled:last-child {
+    background: #29b2ee !important;
+}
