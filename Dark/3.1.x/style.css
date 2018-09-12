@@ -551,3 +551,9 @@ ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
 .fs_modal_file_viewer_content .viewer {
     background-color: var(--background-elevated);
 }
+
+.fs_modal_file_viewer_content .viewer .previous_btn ts-icon,
+.fs_modal_file_viewer_content .viewer .next_btn ts-icon {
+    background: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+}
