@@ -534,3 +534,20 @@ ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
 .c-message_attachment {
     color: var(--alt-text);
 }
+
+.fs_modal_file_viewer_header {
+    background-color: var(--main-background);
+}
+
+#fs_modal h2 {
+    color: var(--main-text);
+}
+
+.fs_modal_file_viewer_header .control_btn, .fs_modal_file_viewer_header .control_btn:link,
+.fs_modal_file_viewer_header a.control_btn, .fs_modal_file_viewer_header a.control_btn:link {
+    color: var(--alt-text);
+}
+
+.fs_modal_file_viewer_content .viewer {
+    background-color: var(--background-elevated);
+}
