@@ -579,3 +579,16 @@ ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name {
 .p-message_pane__unread_banner.p-message_pane__banner .c-button-unstyled:last-child {
     background: #29b2ee !important;
 }
+
+.c-message--ephemeral {
+    background: var(--background-elevated);
+}
+
+.c-message--ephemeral .c-message__label {
+    color: var(--alt-text);
+}
+
+.c-message--ephemeral .c-button--outline-primary {
+    background: var(--main-btn-background);
+    border: 1px solid var(--main-btn-border);
+}
