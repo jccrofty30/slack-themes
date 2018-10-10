@@ -10,8 +10,8 @@
 
 (function() {
     // Fetch our CSS in parallel ahead of time
-    const cssVarPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/3.x.x/variables.css';
-    const cssPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/3.x.x/style.css';
+    const cssVarPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/<version>/variables.css';
+    const cssPath = 'https://raw.githubusercontent.com/jccrofty30/slack-themes/master/Dark/<version>/style.css';
 
     const varPromise = fetch(cssVarPath).then(response => response.text());
     const cssPromise = fetch(cssPath).then(response => response.text());
